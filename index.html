@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scroll Website</title>
@@ -11,9 +11,9 @@
     <!-- NavBar Section init. -->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="#home" id="navbar_logo">COLOR</a>
+            <a href="#home" id="navbar__logo">COLOR</a>
             <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
+                <span class="bar"></span> 
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
@@ -25,13 +25,25 @@
                     <a href="#about" class="navbar__links" id="about-page">About</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                    <a href="#services" class="navbar__links" id="services-page"
+                        >Services</a
+                    >
                 </li>
                 <li class="navbar__btn">
-                    <a href="#sign-up" class="button" id="signup">Sign up</a>
+                    <a href="#sign-up" class="button" id="signup">Sign Up</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Choose your <span>colors</span></h1>
+            <p class="hero__description">Unlimited Possiblilties</p>
+            <button class="main_btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+    <script src = "app.js"></script>
 </body>
 </html>
